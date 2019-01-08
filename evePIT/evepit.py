@@ -23,9 +23,6 @@ class EvePit:
         self.active_character = None
         self.active_character_id = None
 
-        # list of group ids that wont store products
-        self.non_storage_pins = [1028, 1027]
-
     def set_active_character(self, refresh_token):
         """
         Set the active character's authentication via their refresh token
